@@ -4,7 +4,7 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-.div {
+.background {
   position: absolute;
   width: 541.82px;
   height: 587.16px;
@@ -55,6 +55,10 @@ body {
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
+.link-register-here {
+  color: rgba(1, 228, 191, 0.6);
+}
+
 .img {
   position: absolute;
   width: 1184px;
@@ -84,6 +88,7 @@ body {
   line-height: 37px;
   letter-spacing: 0.06em;
   color: #FFFFFF;
+  text-decoration: none;
 }
 
 .About {
@@ -98,6 +103,7 @@ body {
   line-height: 37px;
   letter-spacing: 0.06em;
   color: #FFFFFF;
+  text-decoration: none;
 }
 
 .Blog {
@@ -112,6 +118,7 @@ body {
   line-height: 37px;
   letter-spacing: 0.06em;
   color: #FFFFFF;
+  text-decoration: none;
 }
 
 .Pages {
@@ -126,6 +133,7 @@ body {
   line-height: 37px;
   letter-spacing: 0.06em;
   color: #FFFFFF;
+  text-decoration: none;
 }
 
 .Contact {
@@ -140,6 +148,7 @@ body {
   line-height: 37px;
   letter-spacing: 0.06em;
   color: #FFFFFF;
+  text-decoration: none;
 }
 
 .English {
@@ -154,6 +163,7 @@ body {
   line-height: 37px;
   letter-spacing: 0.06em;
   color: #FFFFFF;
+  text-decoration: none;
 }
 
 .Sign-in {
@@ -168,6 +178,7 @@ body {
   line-height: 37px;
   letter-spacing: 0.06em;
   color: #01E4BF;
+  text-decoration: none;
 }
 
 .Register {
@@ -182,6 +193,7 @@ body {
   line-height: 37px;
   letter-spacing: 0.06em;
   color: #01E4BF;
+  text-decoration: none;
 }
 
 .text-email {
@@ -190,6 +202,7 @@ body {
   height: 78.77px;
   left: 1173px;
   top: 402px;
+  text-decoration: none;
 }
 
 .text-input {
@@ -252,6 +265,7 @@ body {
   line-height: 77px;
   letter-spacing: 0.1em;
   color: rgba(1, 228, 191, 0.6);
+  text-decoration: none;
 }
 
 .button {
@@ -277,6 +291,7 @@ body {
   line-height: 77px;
   letter-spacing: 0.09em;
   color: #FFFFFF;
+  text-decoration: none;
 }
 
 .icon-link {
