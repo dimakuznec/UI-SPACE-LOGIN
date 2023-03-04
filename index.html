@@ -7,56 +7,62 @@
     <link rel="stylesheet" href="index.css">
     <title>UI SPACE LOGIN</title>
 </head>
-<body>
+<body class="translate">
     <div class="background"></div>
     <header class="header">
-        <h1 class="title">Sign In to Space Direct</h1>
-        <div class="description">
-           <p>if you don’t have  an account you can
+        <h1 class="lng-title-unit">Sign In to Space Direct</h1>
+        <div class="lng-description">
+           <p class="description">if you don’t have  an account you can
              <a class="link-register-here" href="#">Register here!</a>
            </p>
         </div>
-        
-        <img class="img" src="Icon/Vectary texture.png" alt="">
-        <div class="link-bar">
-            <a class="Home" href="#">Home</a>
-            <a class="About" href="#">About</a> 
-            <a class="Blog" href="#">Blog</a>
-            <a class="Pages" href="#">Pages</a>
-            <a class="Contact" href="#">Contact</a>
-            <a class="English" href="#">English</a>
-            <a class="Sign-in" href="#">Sign in</a>
-            <a class="Register" href="#">Register</a>
-        </div>
-        <a href="#">
-            <img class="Icon" src="Icon/Icon.png" alt="">
-        </a>
-        <div class="text-email">
-            <input class="text-input" placeholder="Enter Email">
-            <a href="#">
-                <img class="delit" src="Icon/X Icon.png" alt="">
-            </a>
-        </div>
-        <div class="text-password">
-            <input class="password" placeholder="••••••••">
-        </div>
-        <a href="#">
-            <img class="viewing" src="Icon/X Icon (1).png" alt="">
-        </a>
-        <a class="warning" href="#">Forgot Password ?</a>
-        <div class="button">
-            <a class="button-link" href="#">Sign In</a>
-        </div>
-        <img class="icon-link" src="Icon/Line.png" alt="">
-        <a href="#">
+
+        <img class="img" src="Icon/img-astronaut.png" alt="">
+
+       <div class="lng-link-bar">
+            <a class="Home-bar" href="#">Home</a>
+            <a class="About-bar" href="#">About</a> 
+            <a class="Blog-bar" href="#">Blog</a>
+            <a class="Pages-bar" href="#">Pages</a>
+            <a class="Contact-bar" href="#">Contact</a>
+            <a class="lng-Sign-in-more" href="#">Sign in</a>
+            <a class="Register-bar" href="#">Register</a>
+       </div>
+    
+       <div class="lng-registration">
+         <div class="text-email">
+             <input id="email-input" class="text-input-registration" placeholder="Enter Email">
+             <a href="#" class="button-email" id="clear-button">
+                 <img class="Icon-email" src="Icon/Icon-delete-email.png" alt="">
+             </a>
+         </div>
+         <div class="text-password">
+             <input type="password" class="input-password" placeholder="password">
+         </div>
+         <a href="#">
+             <img class="viewing img-viewing" src="Icon/Icon-btn-passeord.png" alt="">
+         </a>
+         <a class="warning-more" href="#">Forgot Password ?</a>
+          <div class="button">
+             <a class="lng-button-link-more" href="#">Sign In</a>
+          </div>
+          <img class="icon-link" src="Icon/Line.png" alt="">
+         <a href="#">
              <img class="link-google" src="Icon/Google.png" alt="">
-        </a>
-        <a href="#">
-            <img class="link-apple" src="Icon/Apple.png" alt="">
-       </a>
-       <a href="#">
-         <img class="link-facebook" src="Icon/Facebook.png" alt="">
-       </a>
-    </header> 
+         </a>
+         <a href="#">
+             <img class="link-apple" src="Icon/Apple.png" alt="">
+         </a>
+         <a href="#">
+             <img class="link-facebook" src="Icon/Facebook.png" alt="">
+         </a>
+            <select id="lenguages" class="change-lang">
+                <option value="ua">UA</option>
+                <option value="ru" selected>RU</option>
+                <option value="en">EN</option>
+            </select>
+       </div>
+    </header>
 </body>
+<script src="index.js"></script>
 </html>
